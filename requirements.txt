@@ -1,0 +1,30 @@
+# BlindAssist v1.0 - Core Dependencies
+# Install with: pip install -r requirements.txt
+
+# Computer Vision
+opencv-python>=4.8.0
+numpy>=1.21.0
+pillow>=9.0.0
+
+# Machine Learning / AI
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# OpenAI & Anthropic APIs
+openai>=1.0.0
+anthropic>=0.18.0
+
+# Audio / TTS
+pyttsx3>=2.90
+
+# Configuration
+pyyaml>=6.0
+
+# Utilities
+func-timeout>=4.3.5
+
+# Optional: For depth estimation (install separately if needed)
+# transformers>=4.30.0
+# accelerate>=0.20.0
+

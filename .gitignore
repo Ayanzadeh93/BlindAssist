@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+app.log
+
+# Output files
+output/
+temp/
+*.mp4
+*.avi
+*.mov
+*.MOV
+
+# Model weights (too large for git)
+*.pt
+*.onnx
+*.pth
+*.h5
+*.pb
+weights/*.pt
+weights/*.onnx
+yolo*.pt
+yolo*.onnx
+
+# API Keys and Secrets
+API_KEYS.yaml
+OPENAI_API_KEY.yaml
+*.key
+*.pem
+.env
+.env.local
+
+# Data files
+*.csv
+*.json
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.wav
+
+# Cache
+cache/
+.cache/
+*.cache
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
